@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="www.richyan.com, android, java, php, css, developper,web design,internet game">
+<meta name="description" content="Rich yan is a professional web developper and mobile application developper.">   
+<meta name="ROBOTS" content="INDEX, FOLLOW">
+<meta name="REVISIT-AFTER" content="1 DAYS">
+<meta name="RATING" content="GENERAL">
+<!--<link rel="icon" href="/ricon.ico" type="image/x-icon">-->
+<script src='http://www.richyan.com/jquery-3.1.1.min.js'></script>
+<link type="text/css" href="http://www.richyan.com/style.css"  rel="stylesheet" />
+<style type='text/css'>
+    div.level, div.scores,div.timer{
+        position: absolute; 
+        font-size: 20px;
+        color: #DC143C;
+    }
+</style><title>RichYan.com - Javascript</title></head>
+     <body>
+ 
+    
+         <div id="cont" class="content">
+             <div class="conTitle" id="conTitle">Star War</div> 
+            <div class="conSubTitle"><a href="javascript: play();" style=" background-color:#f0f0f0; padding: 2px; border:1px solid #e0e0e0;">Click to play</a></div>
+            <div class="conLeft" id="conLeft" style="height:540px; width: 560px; border:1px solid grey; margin-left:20px;">
+                <img src="starwar/enemy.png" class="enemy"  alt="enemy fighter" width="36" height="44" style="position: absolute; visibility: hidden;" />
+                <img src="starwar/bomber.png" class="bomber" alt="enemy bomber" width="50" height="40" style="position: absolute; visibility: hidden;" />
+                <img src="starwar/fighter.png" class="fighter" width="42" height="59" alt="Fly fighter"  style="position: absolute; visibility: hidden;" />
+                <div class ='level' style="padding: 0 0 0 20px; ">Level: <span class="level"> 1</span></div>
+                <div class ='scores' style="padding: 0px 0px 0px 170px; ">Scores: <span class="scores">0<span></div>
+                <div class ='timer' style=" padding: 0px 0px 0px 340px;">Timer: <span class="mm">00</span>:<span class="ss">00<span></div>
+                <p id="score" style="position: absolute; opacity: 0;">100</p>
+            </div>
+          
+            
+         </div>
+         
+<script src="starwar.js"></script>
+    </body>
+</html>
